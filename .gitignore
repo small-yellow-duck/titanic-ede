@@ -1,0 +1,16 @@
+# model files
+*.h5
+
+# Environments
+.env
+.venv
+env/
+venv/
+.idea/
+
+# experiments
+ede_notarget/
+encdec_kindaworks/
+encdec_nodropout_works/
+encdec_works/
+tex/
