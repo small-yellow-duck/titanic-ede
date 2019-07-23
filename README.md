@@ -12,9 +12,9 @@ The contrastive loss does not pair nicely with variational approaches because th
 
 In order to use a variational approach, I propose the Gaussian Overlap loss:
 
-\mathcal{L}
+<img src="https://latex.codecogs.com/svg.latex?>\mathcal{L}</img>
 
-<img src="https://latex.codecogs.com/svg.latex?L= -t ln(1- erf(|\mu_i - \mu_j|/2)) +  (1-t)  ln(erf(|\mu_i - \mu_j|/2))">,
+<img src="https://latex.codecogs.com/svg.latex?L=-t ln(1- erf(|\mu_i - \mu_j|/2)) +  (1-t)  ln(erf(|\mu_i - \mu_j|/2))">,
 
 <img src="https://latex.codecogs.com/svg.latex?t=0"> if <img src="https://latex.codecogs.com/svg.latex?\mu_i"> and <img src="https://latex.codecogs.com/svg.latex?\mu_j"> are embeddings which are meant to describe the same item and <img src="https://latex.codecogs.com/svg.latex?t=1"> the items are not the same.
 
