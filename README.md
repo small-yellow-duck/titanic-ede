@@ -16,6 +16,3 @@ In order to use a variational approach, I propose the Gaussian Overlap loss:
 
 <img src="https://latex.codecogs.com/svg.latex?t=0"> if <img src="https://latex.codecogs.com/svg.latex?\mu_i"> and <img src="https://latex.codecogs.com/svg.latex?\mu_j"> are embeddings which are meant to describe the same item and <img src="https://latex.codecogs.com/svg.latex?t=1"> if the items `i` and `j` are not the same.
 
-
-
-### Encoding missing categorical data
